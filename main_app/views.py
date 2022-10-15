@@ -50,3 +50,11 @@ class Testimonials(View):
 
 class Testimonials(TemplateView):
     template_name = "testimonials.html"
+
+
+class Construction(View):
+    def get(self, request):
+        return HttpResponse("CMF Construction")
+
+class Construction(TemplateView):
+    template_name = "construction.html"

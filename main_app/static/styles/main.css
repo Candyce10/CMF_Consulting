@@ -188,8 +188,8 @@ section {
 }
 
 .btn-brand:hover {
-    background-color: #d64022;
-    border-color: #d64022;
+    background-color: #0ec30e;
+    border-color: #0ec30e;
     color: #fff;
 }
 
@@ -221,7 +221,7 @@ text-align: center;}
 
 
 #milestone {
-    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(68, 122, 69, 0.9), rgba(68, 122, 69, 0.90)), url(https://images.fineartamerica.com/images-medium-large-5/boston-back-bay-skyline-at-night-black-and-white-bw-panorama-jon-holiday.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -305,7 +305,7 @@ text-align: center;}
     position: absolute;
     left: 0;
     top: -10%;
-    background-color: rgba(255, 77, 41, 0.7);
+    background-color: rgba(68, 122, 69, 0.7);
     opacity: 0;
     transition: all 0.4s ease;
 }
@@ -367,12 +367,7 @@ text-align: center;}
     color: #fff;
 }
 
-.review img {
-    width: 80px !important;
-    height: 80px;
-    border-radius: 100px;
-    margin: auto;
-}
+
 
 .review h5 {
     margin-top: 16px;
@@ -381,6 +376,14 @@ text-align: center;}
 }
 
 .review h3 {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.review h4 {
     margin-top: 26px;
     margin-bottom: 26px;
     font-size: 22px;
@@ -490,3 +493,12 @@ input.form-control {
     box-shadow: none;
     border-color: var(--brand);
 }
+
+.about-img{
+    margin-top: 20px;
+}
+
+.about-sec{
+    margin-top: -50px;
+}
+
