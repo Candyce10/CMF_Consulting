@@ -58,3 +58,10 @@ class Construction(View):
 
 class Construction(TemplateView):
     template_name = "construction.html"
+
+class ConstructionEs(View):
+    def get(self, request):
+        return HttpResponse("CMF Construction_Es")
+
+class ConstructionEs(TemplateView):
+    template_name = "construction_es.html"

@@ -1,0 +1,21 @@
+.const-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact{
+    line-height: 8px;
+}
+
+a.link{
+    color:rgb(241, 241, 241);
+}
+
+a .langWrap.active{
+    background: blue;
+}
+.langWrap{
+    padding: 10px;
+}
