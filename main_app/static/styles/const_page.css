@@ -16,7 +16,12 @@ a.link{
 a .langWrap.active{
     background: blue;
 }
-.langWrap{
-    padding: 10px;
-}
 
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a.active{
+    color: white;
+    text-decoration: underline;
+}
