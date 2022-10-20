@@ -9,19 +9,21 @@
     line-height: 8px;
 }
 
-a.link{
-    color:rgb(241, 241, 241);
-}
 
-a .langWrap.active{
-    background: blue;
-}
+
 
 a{
     text-decoration: none;
     font-size: 20px;
 }
-a.active{
+a.lang.active{
     color: white;
     text-decoration: underline;
+}
+
+a.contact.active{
+    text-decoration: none;
+    border-color: var(--brand);
+    background-color: var(--brand);
+    color: white;
 }
