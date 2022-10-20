@@ -18,6 +18,8 @@ let data ={
         "p3": "Have you decided to start your own business but are not sure where to finacially begin?",
         "greenct": "We help with application processing for minority certification to get SBA (or other) loans & grants",
         "greenct2": "CMF Consultants shop for loans and grants that suit your specific needs!",
+        "nv": "Las Vegas Office",
+        "fl": "Florida Office",
     },
     "spanish":
     {
@@ -37,7 +39,8 @@ let data ={
         "p3": "¿Ha decidido iniciar su propio negocio pero no está seguro de por dónde empezar financieramente?",
         "greenct": "Ayudamos a las minorías a procesar las solicitudes de certificación para obtener préstamos y subvenciones de la SBA (u otros)",
         "greenct2": "¡Los consultores de CMF buscan préstamos y subvenciones para sus necesidades específicas!",
-
+        "nv": "Oficina en Las Vegas",
+        "fl": "Oficina en Florida",
     }
 }
 const langEl = document.querySelector('.langWrap');
@@ -57,6 +60,8 @@ const p2El = document.querySelector('.p2');
 const p3El = document.querySelector('.p3');
 const greenctEl = document.querySelector('.greenct');
 const greenct2El = document.querySelector('.greenct2');
+const nvEl = document.querySelector('.nv');
+const flEl = document.querySelector('.fl');
 const link = document.querySelectorAll('a');
 
 link.forEach(el =>{
@@ -82,5 +87,7 @@ link.forEach(el =>{
         p3El.textContent = data[attr].p3
         greenctEl.textContent = data[attr].greenct
         greenct2El.textContent = data[attr].greenct2
+        nvEl.textContent = data[attr].nv
+        flEl.textContent = data[attr].fl
     })
 })
